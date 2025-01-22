@@ -42,8 +42,8 @@ print(f'change_list 주소 : {id(change_list)}')
 
 print('\ncatalog와 backup_catalog를 비교한 결과')
 # 식별 연산자로 catalog와 backup_catalog를 비교한 결과를 출력하시오.
-print(catalog == backup_catalog)
-print(catalog is backup_catalog)
+print(catalog == backup_catalog) # 값이 같은지 비교
+print(catalog is backup_catalog) # 주소까지 같은지 비교
 
 print('backup_catalog : ')
 print(backup_catalog)
