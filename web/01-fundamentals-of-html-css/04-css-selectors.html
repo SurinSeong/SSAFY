@@ -7,31 +7,31 @@
   <title>Document</title>
   <style>    
     * {
-      color: red;
+      /* color: red; */
     }
     /* 스타일이 중복되었을 때 우선 순위가 존재한다. */
     h2 {
-      color: orange;    
+      /* color: orange;     */
     }
 
     h3,
     h4 {
-      color: blue;
+      /* color: blue; */
     }
 
     .green {    /* 다수 선택 */
-      color: green;
+      /* color: green; */
     }
 
     #purple {    /* 단일 선택 */
-      color: purple;
+      /* color: purple; */
     }
 
-    .green > span {
+    ul > li {
       font-size: 50px;
     }
 
-    .green li {
+    ul li {
       color: brown;
     }
 
@@ -49,7 +49,7 @@
     <li>알고리즘</li>
     <li>웹
       <ol>
-        <li>HTML</li>
+        <li><span>HTML</span></li>
         <li>CSS</li>
         <li>PYTHON</li>
       </ol>
